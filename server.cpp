@@ -132,8 +132,6 @@ static struct {
 		HMap db;
 } g_data;
 
-static std::map<std::string, std::string> g_map;
-
 #define container_of(ptr, type, member) \
     reinterpret_cast<type*>(reinterpret_cast<char*>(ptr) - offsetof(type, member))
 
